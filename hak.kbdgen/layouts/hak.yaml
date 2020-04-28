@@ -1,19 +1,17 @@
-internalName: hak_mobile_keyboards
 displayNames:
   hak: Hak-kâ
-  ch: 客家 
-  en:Haka 
-decimal: ","
+  ch: 客家
+  en: Haka
 modes:
   mobile:
     default: |
       q w e r t y u i o p  
       a s d f g h j k l 
-        z x c ü b n m 
+       z x c ü b n m 
     shift: |
-      Q W E R T Y U I O P  
-      A S D F G H J K L 
-        Z X C Ü B N M 
+      Q  W E R T Y U I O P  
+      A S D F G H J K L ʼ
+         Z X C V B N M 
 longpress:
   a: āáăà
   e: ēéĕè
@@ -21,19 +19,8 @@ longpress:
   o: ōóŏò
   u: ūúŭù
   ü: ǖǘǚǜ
-  A: ĀÁĂÀ
-  E: ĒÉĔÈ
-  I: Ī
-  O: ŌÓŎÒ
-  U: ŪÚŬÙ
-  Ü: ǕǗǙǛ
-strings:
-  space: space
-  return: return
-space:
-  mac:
-    caps: '\u{A0}'
-    alt: '\u{A0}'
-    alt+shift: '\u{A0}'
-    caps+alt: '\u{A0}'
-    cmd+alt: '\u{A0}'
+targets:
+  ios:
+    legacyName: hak_mobile_keyboards
+  android:
+    legacyName: hak_mobile_keyboards
