@@ -1,10 +1,10 @@
 internalName: hak_mobile_keyboards
-displayNames: Hak-kâ
-ch: 客家 
-en:Haka 
+displayNames:
+  hak: Hak-kâ
+  ch: 客家 
+  en: Haka 
 
 locale: hak
-
 
 supportedTargets: [ios, android]
 
