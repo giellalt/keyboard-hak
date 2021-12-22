@@ -1,4 +1,4 @@
-# Documentation for the __UNDEFINED__ keyboards
+# Documentation for the Hakka Chinese keyboards
 
 
 ## Layouts
